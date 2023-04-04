@@ -1,0 +1,258 @@
+body {
+  font-family: "League Spartan", sans-serif;
+  background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: left top, right bottom;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.kaikki {
+  width: 1440px;
+}
+
+.up {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -moz-column-gap: 0.1em;
+       column-gap: 0.1em;
+}
+
+.headerbox {
+  color: hsl(303, 10%, 53%);
+  margin-left: 10rem;
+  margin-top: 5rem;
+  padding-right: 8rem;
+}
+
+.starbox {
+  color: hsl(300, 43%, 22%);
+  border-radius: 0.1em;
+  margin-top: 9rem;
+  margin-right: 8rem;
+  margin-left: 5rem;
+}
+
+.buyert {
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 0.3em;
+  height: 3.2rem;
+  width: 25rem;
+  padding-left: 2rem;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+img {
+  margin-right: 0.5rem;
+}
+
+.buyerpic {
+  border-radius: 10rem;
+  height: 2.4rem;
+}
+
+.vali {
+  padding-left: 2rem;
+  font-weight: 600;
+}
+
+.buyerbox {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  -moz-column-gap: 1.8rem;
+       column-gap: 1.8rem;
+  margin-left: 10rem;
+  margin-top: 5rem;
+  margin-right: 5rem;
+}
+
+hgroup {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 0.5em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+
+.break {
+  width: 100%;
+}
+
+h1 {
+  color: hsl(300, 43%, 22%);
+  font-size: 3.3rem;
+  margin-top: 2rem;
+}
+
+h2 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-top: -0.1rem;
+  margin-left: 1rem;
+}
+
+h3 {
+  color: hsl(333, 80%, 67%);
+  font-size: 1rem;
+  font-weight: 200;
+  margin-left: 3.9rem;
+  margin-top: -0.9rem;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+  margin-right: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+#maintext {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+#sb1 {
+  margin-left: -4rem;
+}
+
+#sb2 {
+  margin-left: -1rem;
+}
+
+#sb3 {
+  margin-left: 2rem;
+}
+
+#b1 {
+  margin-right: 2rem;
+}
+
+#b2 {
+  margin-top: 1rem;
+  margin-bottom: -1rem;
+  margin-right: 4rem;
+  margin-left: -2rem;
+}
+
+#b3 {
+  margin-right: 6rem;
+  margin-top: 2rem;
+  margin-bottom: -2rem;
+  margin-left: -4rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .kaikki {
+    width: 375px;
+  }
+  .up {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+  }
+  h1 {
+    color: hsl(300, 43%, 22%);
+    font-size: 2.6rem;
+    margin-top: 2rem;
+    line-height: 2rem;
+  }
+  .headerbox {
+    color: hsl(303, 10%, 53%);
+    margin-left: 0rem;
+    margin-top: 3rem;
+    padding-right: 0rem;
+    padding-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  #maintext {
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    margin-top: -0.5rem;
+  }
+  .starbox {
+    color: hsl(300, 43%, 22%);
+    border-radius: 1rem;
+    margin-top: 0rem;
+    margin-right: 1.2rem;
+    margin-left: 1.2rem;
+  }
+  .vali {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-weight: 600;
+  }
+  .buyert {
+    background-color: hsl(300, 24%, 96%);
+    height: 4.9rem;
+    width: 21rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    border-radius: 0.5em;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    justify-content: center;
+    margin-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  h2 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: -0.1rem;
+    margin-left: 1rem;
+  }
+  br {
+    display: none;
+  }
+  .buyerbox {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    -moz-column-gap: 1.8rem;
+         column-gap: 1.8rem;
+    margin-left: 2rem;
+    margin-top: -2rem;
+    margin-right: 2rem;
+    margin-bottom: 5rem;
+  }
+  #sb1 {
+    margin-left: 0rem;
+  }
+  #sb2 {
+    margin-left: 0rem;
+  }
+  #sb3 {
+    margin-left: 0rem;
+  }
+  #b1 {
+    margin-top: 1rem;
+    margin-right: 0rem;
+    padding-right: 1rem;
+  }
+  #b2 {
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    margin-right: 0rem;
+    margin-left: 0rem;
+  }
+  #b3 {
+    margin-right: 0rem;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+  }
+}/*# sourceMappingURL=style.css.map */
